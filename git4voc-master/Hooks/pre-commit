@@ -25,6 +25,10 @@ else
 
 	for file in ${files}; do
 
+            fileContent=`cat ${file}`
+ 
+            res=$(curl -X POST -d " $fileContent " http://creative-porcupine-1804.vagrantshare.com/SyntaxValidation/receive)
+
 	    res=$(rapper -i turtle "${files}" -c 2>&1)
 
 	    if echo $res | grep -q "Error"; then
@@ -36,32 +40,6 @@ else
 	    fi
 
 	done
-
-        if ! $pass; then
-	 
-          for file in ${files}; do
-
-           fileContent=`cat ${files}`
-
-	   result="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-	   <OOPSRequest>
-		<OntologyUrl></OntologyUrl>
-		<OntologyContent>${fileContent}</OntologyContent>
-		<Pitfalls>10</Pitfalls>
-		<OutputFormat></OutputFormat>
-	   </OOPSRequest>"
-
-	   res=$(curl -X POST -d "$result" -H "Content-Type: application/xml" http://oops-ws.oeg-upm.net/rest)
-
-	   if echo $res | grep -q "Error"; then
-		echo $res
-                pass = false
-
-	    fi
-
-	  done
-
-	fi
 
 	echo "\Turtle validation complete\n"
 
