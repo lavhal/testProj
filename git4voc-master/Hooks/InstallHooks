@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cd ../../
+#Copy implemented hooks 
+for file in `ls -1 git4voc-master/Hooks`
+do
+ if [ $file != "InstallHooks" ]; then
+   echo $file 
+   cp git4voc-master/Hooks/$file .git/hooks/$file
+   sudo chmod +x .git/hooks/$file
+ fi
+done
