@@ -15,7 +15,7 @@
 
 # CLASSES
 		
-mv:ChargingPoint
+mv:ChargingPointa
 	a rdfs:Class, owl:Class ;
 	rdfs:comment	"Defines the  public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
@@ -257,7 +257,7 @@ mv:isLocated
 mv:isOwnedBy
 	a	rdf:Property, owl:ObjectProperty ;
 	rdfs:label	"isOwnedBy"@en ;
-	rdfs:comment	"Charging point's owner test." ;
+	rdfs:comment	"Charging point's owner." ;
 	rdfs:domain	mv:ChargingPoint ;
 	rdfs:range	mv:ChargingPointOwner .
 	
