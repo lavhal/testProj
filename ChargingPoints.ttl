@@ -257,7 +257,7 @@ mv:isLocated
 mv:isOwnedBy
 	a	rdf:Property, owl:ObjectProperty ;
 	rdfs:label	"isOwnedBy"@en ;
-	rdfs:comment	"Charging point's owner IRlan." ;
+	rdfs:comment	"Charging point's owner IRlani." ;
 	rdfs:domain	mv:ChargingPoint ;
 	rdfs:range	mv:ChargingPointOwner .
 	
