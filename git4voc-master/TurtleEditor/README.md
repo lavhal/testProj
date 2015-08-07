@@ -3,7 +3,7 @@
 Complying with [Vocol's methodology](https://github.com/vocol/vocol),
 the turtle files are loaded directly from and stored to GitHub.
 
-[Click and try out the demo.](https://rawgit.com/lavhal/testProj/blob/master/git4voc-master/TurtleEditor/turtle-editor.html)
+[Click and try out the demo.](https://rawgit.com/lavhal/testProj/master/git4voc-master/TurtleEditor/turtle-editor.html)
 Usage information is included in the web application.
 
 The source code is in the directory
