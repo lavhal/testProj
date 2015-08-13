@@ -1,5 +1,3 @@
-#!/bin/sh
-
 #Copy implemented hooks 
 for file in `ls -1 git4voc-master/Hooks`
 do
@@ -10,7 +8,8 @@ do
  fi
 done
 
-#Ignore git4voc-master folder using .gitignore
+
+#Ignore tools folder using .gitignore
 if [ ! -e ".gitignore" ]; then
   touch .gitignore
   echo "git4voc-master/" >> .gitignore
