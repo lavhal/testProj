@@ -27,7 +27,7 @@ else
 
             fileContent=`${file}-+- cat ${file}`
  
-            res=$(curl -X POST -d " $fileContent " http://dreadful-chameleon-9139.vagrantshare.com/push/syntaxvalidation)
+            res=$(curl -X POST -d " $fileContent " http://dreadful-chameleon-9139.vagrantshare.com/syntaxvalidation)
 
 	    if echo $res | grep -q "Error"; then
 		echo "\t\033[31mValidation Failed! ${file}\033[0m"
