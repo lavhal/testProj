@@ -15,9 +15,9 @@
 
 # CLASSES
 		
-mv:ChargingPointabcd
+mv:ChargingPointabcdf
 	a rdfs:Class, owl:Class ;
-	rdfs:comment	"Defines   the public or semi-public charging points for electric vehicles available worldwide. " ;
+	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
 	rdfs:label "Charging Point"@en ;
 	rdfs:label "Point de charge"@fr ;
