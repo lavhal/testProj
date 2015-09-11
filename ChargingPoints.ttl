@@ -29,7 +29,7 @@ mv:ChargingPointOwner
 	a rdfs:Class, owl:Class ;
 	rdfs:subClassOf	 foaf:Agent ;
 	rdfs:comment	"Captures information about the owner of charging point." ;
-	rdfs:label "Charging Point Owner"@en ;
+	
 	rdfs:label "Besitzer der Ladestation"@de .
 
 mv:ChargingPointLocation 
