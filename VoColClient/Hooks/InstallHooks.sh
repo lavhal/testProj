@@ -1,7 +1,7 @@
 #Copy implemented hooks 
 for file in `ls -1 VoColClient/Hooks`
 do
- if [ $file != "InstallHooks" ]; then
+ if [ $file != "InstallHooks.sh" ]; then
    cp VoColClient/Hooks/$file .git/hooks/$file
    echo "Please write your admin password to allow execute permission for hook "$file
    sudo chmod +x .git/hooks/$file
