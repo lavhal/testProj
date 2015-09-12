@@ -15,14 +15,14 @@
 
 # CLASSES
 		
-mv:ChargingPoint ab
+mv:ChargingPoint 
 	a rdfs:Class, owl:Class ; 
 	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
 	rdfs:label "Charging Point WidocoNew"@en ;
 	rdfs:label "Point de charge"@fr ;
 
-	rdfs:label "Oplaadpunt"@nl ;
+
 	rdfs:label "Ponto de Carregamento"@pt .
 	
 mv:ChargingPointOwner 
