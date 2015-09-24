@@ -15,7 +15,7 @@
 
 # CLASSES
 		
-mv:ChargingPoint ab
+mv:ChargingPoint a
 	a rdfs:Class, owl:Class ; 
 	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide Branch Old. " ;
 	rdfs:label "Ladestation"@de ;
