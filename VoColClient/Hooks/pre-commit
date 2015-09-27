@@ -33,7 +33,7 @@ else
           
             echo " ${fileContent} " > tempFileCurl.ttl
 
-            res=$(curl -X POST --data-binary @tempFileCurl.ttl http://grimy-gopher-1662.vagrantshare.com/syntaxvalidation)
+            res=$(curl -X POST --data-binary @tempFileCurl.ttl http://delinquent-sheep-3443.vagrantshare.com/syntaxvalidation)
 
 	    if echo $res | grep -q "Error"; then
 		echo "\t\033[31mValidation Failed! ${file}\033[0m"
