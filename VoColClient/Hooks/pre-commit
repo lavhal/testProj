@@ -26,7 +26,7 @@
           
             echo " ${fileContent} " > tempFileCurl.ttl
 
-            res=$(curl -X POST --data-binary @tempFileCurl.ttl http://vocol.vagrantshare.com//syntaxvalidation)
+            res=$(curl -X POST --data-binary @tempFileCurl.ttl http://vocol1.vagrantshare.com//syntaxvalidation)
 
 	    if echo $res | grep -q "Error"; then
 		echo "\t\033[31mValidation Failed! ${file}\033[0m"
