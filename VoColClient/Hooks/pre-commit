@@ -7,12 +7,6 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-currentBranch=$(git symbolic-ref HEAD)
-
-if [ "$currentBranch" = "refs/heads/master1" ]; then
-	 echo "\t\033[31mYou are not allowed to commit to master branch! ${file}\033[0m"
-	 exit 1
-else
 
         files=$(git diff --cached --name-only --diff-filter=ACM | grep ".ttl$")
 	if [ "$files" = "" ]; then 
@@ -33,7 +27,7 @@ else
           
             echo " ${fileContent} " > tempFileCurl.ttl
 
-            res=$(curl -X POST --data-binary @tempFileCurl.ttl http://delinquent-sheep-3443.vagrantshare.com/syntaxvalidation)
+            res=$(curl -X POST --data-binary @tempFileCurl.ttl http://cold-jackal-4275.vagrantshare.com//syntaxvalidation)
 
 	    if echo $res | grep -q "Error"; then
 		echo "\t\033[31mValidation Failed! ${file}\033[0m"
@@ -57,4 +51,3 @@ else
 	    echo "\033[42mCOMMIT SUCCEEDED\033[0m\n"
 	fi
 
-fi
