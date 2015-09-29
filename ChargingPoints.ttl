@@ -20,7 +20,7 @@ mv:ChargingPoint
 	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
 	rdfs:label "Charging Point New"@en ;
-        rdfs:label "Charging Point New"@al ;
+
 	rdfs:label "Ponto de Carregamento"@pt .
 	
 mv:ChargingPointOwner 
