@@ -1,3 +1,0 @@
-SELECT ?subject ?predicate ?object WHERE { aa
-                  ?subject ?predicate ?object }
-                 LIMIT 25
