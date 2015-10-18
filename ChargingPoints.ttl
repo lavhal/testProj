@@ -27,7 +27,7 @@ mv:ChargingPointOwner
 	a rdfs:Class, owl:Class ;
 	rdfs:subClassOf	 foaf:Agent ;
 	rdfs:comment	"Captures information about the owner of charging point." ;
-	rdfs:label "Pronari i pikes rimbushese"@al;
+	rdfs:label "Pronari i pikes rimbushese "@al;
 	rdfs:label "Besitzer der Ladestation"@de .
 
 mv:ChargingPointLocation 
