@@ -19,7 +19,7 @@ mv:ChargingPoint
 	a rdfs:Class, owl:Class ; 
 	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide Branch Old. " ;
 	rdfs:label "Ladestation"@de ;
-	rdfs:label "Charging Point"@en ;
+	rdfs:label "Charging Point DevelopBranch"@en ;
 	rdfs:label "Point de chargeNew"@fr ;
 
 	rdfs:label "Ponto de Carregamento"@pt .
