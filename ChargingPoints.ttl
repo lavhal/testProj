@@ -19,7 +19,7 @@ mv:ChargingPoint
 	a rdfs:Class, owl:Class ; 
 	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
-	rdfs:label "Charging Point New"@en ;
+	rdfs:label "Charging Point NewVersion"@en ;
 	rdfs:label "Pika rimbushese "@al;
 	rdfs:label "Ponto de Carregamento"@pt .
 	
@@ -27,7 +27,7 @@ mv:ChargingPointOwner
 	a rdfs:Class, owl:Class ;
 	rdfs:subClassOf	 foaf:Agent ;
 	rdfs:comment	"Captures information about the owner of charging point." ;
-	rdfs:label "Pronari i pikes rimbushese"@al;
+	rdfs:label "Pronari i pikes rimbushese "@al;
 	rdfs:label "Besitzer der Ladestation"@de .
 
 mv:ChargingPointLocation 
