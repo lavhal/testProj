@@ -19,7 +19,7 @@ mv:ChargingPoint
 	a rdfs:Class, owl:Class ; 
 	rdfs:comment	"Defines    the public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
-	rdfs:label "Charging Point SteffenNewNew"@en ;
+	rdfs:label "Charging Point"@en ;
 	rdfs:label "Pika rimbushese "@al;
 	rdfs:label "Ponto de Carregamento"@pt .
 	
