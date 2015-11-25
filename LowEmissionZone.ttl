@@ -36,7 +36,7 @@ mv:access rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/net/mobivoc/isLocated
 
-mv:isLocated rdf:type owl:ObjectProperty ;
+mv:isLocated rdf:type owl:ObjectProperty ; test
              
              rdfs:label "isLocated"@en,
 				"istLokalisiert"@de;
