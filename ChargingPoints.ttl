@@ -464,12 +464,7 @@ a	rdf:Property, owl:DatatypeProperty ;
 	rdfs:range	rdfs:Literal .
 	
 	
-mv:intensity
-a	rdf:Property, owl:DatatypeProperty ;
-	rdfs:label	"Intensity"@en ;
-	rdfs:comment	"Plug intensity.  " ;
-	rdfs:domain	mv:Plug ;
-	rdfs:range	rdfs:Literal .
+
 	
 mv:voltage
 a	rdf:Property, owl:DatatypeProperty ;
