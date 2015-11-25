@@ -15,7 +15,7 @@
 
 # CLASSES
 		
-mv:ChargingPoint 
+mv:ChargingPoint a
 	a rdfs:Class, owl:Class ; 
 	rdfs:comment	"Defines the public or semi-public charging points for electric vehicles available worldwide. " ;
 	rdfs:label "Ladestation"@de ;
@@ -477,7 +477,12 @@ a	rdf:Property, owl:DatatypeProperty ;
 	rdfs:domain	mv:Plug ;
 	rdfs:range	rdfs:Literal .
 	
-
+mv:currentType
+a	rdf:Property, owl:DatatypeProperty ;
+	rdfs:label	"CurrentType"@en ;
+	rdfs:comment	"Current type.  " ;
+	rdfs:domain	mv:Plug ;
+	rdfs:range	rdfs:Literal .
 	
 mv:threePhasedCurrentavailable
 a	rdf:Property, owl:DatatypeProperty ;
