@@ -21,14 +21,12 @@ mv:ChargingPoint
 	rdfs:label "Ladestation"@de ;
 	rdfs:label "Charging Point DevelopBranch from Turtle Editor"@en ; 
 	rdfs:label "Point de chargeNew"@fr ; 
-
 	rdfs:label "Ponto de Carregamento"@pt .
 	
 mv:ChargingPointOwner 
 	a rdfs:Class, owl:Class ;
 	rdfs:subClassOf	 foaf:Agent ;
 	rdfs:comment	"Captures information about the owner of charging point." ;
-
 	rdfs:label "Besitzer der Ladestation"@de .
 
 mv:ChargingPointLocation 
