@@ -21,6 +21,7 @@ mv:ChargingPoint
 	rdfs:label "Ladestation"@de ;
 	rdfs:label "Charging Point"@en ;
 	rdfs:label "Pika rimbushese "@al;
+	rdfs:label "Punto di ricarica"@it;
 	rdfs:label "Ponto de Carregamento"@pt .
 	
 mv:ChargingPointOwner 
