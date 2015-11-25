@@ -20,7 +20,7 @@
 #################################################################
 
 
-###  http://purl.org/net/mobivoc/access
+###  http://purl.org/net/mobivoc/access test
 
 mv:access rdf:type owl:ObjectProperty ;
           
