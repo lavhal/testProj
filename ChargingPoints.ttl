@@ -478,7 +478,12 @@ a	rdf:Property, owl:DatatypeProperty ;
 	rdfs:domain	mv:Plug ;
 	rdfs:range	rdfs:Literal .
 	
-
+mv:currentType
+a	rdf:Property, owl:DatatypeProperty ;
+	rdfs:label	"CurrentType"@en ;
+	rdfs:comment	"Current type.  " ;
+	rdfs:domain	mv:Plug ;
+	rdfs:range	rdfs:Literal .
 	
 mv:threePhasedCurrentavailable
 a	rdf:Property, owl:DatatypeProperty ;
