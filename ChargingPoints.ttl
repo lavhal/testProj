@@ -464,7 +464,12 @@ a	rdf:Property, owl:DatatypeProperty ;
 	rdfs:range	rdfs:Literal .
 	
 	
-
+mv:intensity
+a	rdf:Property, owl:DatatypeProperty ;
+	rdfs:label	"Intensity"@en ;
+	rdfs:comment	"Plug intensity.  " ;
+	rdfs:domain	mv:Plug ;
+	rdfs:range	rdfs:Literal .
 	
 mv:voltage
 a	rdf:Property, owl:DatatypeProperty ;
@@ -473,12 +478,7 @@ a	rdf:Property, owl:DatatypeProperty ;
 	rdfs:domain	mv:Plug ;
 	rdfs:range	rdfs:Literal .
 	
-mv:currentType
-a	rdf:Property, owl:DatatypeProperty ;
-	rdfs:label	"CurrentType"@en ;
-	rdfs:comment	"Current type.  " ;
-	rdfs:domain	mv:Plug ;
-	rdfs:range	rdfs:Literal .
+
 	
 mv:threePhasedCurrentavailable
 a	rdf:Property, owl:DatatypeProperty ;

@@ -264,6 +264,4 @@ s:polygon rdf:type owl:Class .
 
 
 
-###  http://www.co-ode.org/ontologies/ont.owl#Vehicle
 
-<http://www.co-ode.org/ontologies/ont.owl#Vehicle> rdf:type owl:Class .
