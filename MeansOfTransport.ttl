@@ -10,5 +10,5 @@ mv:MeansOfTransport a owl:Class;
 mv:Car   a mv:MeansOfTransport .
 mv:Boat  a mv:MeansOfTransport .
 mv:Plane a mv:MeansOfTransport .
-mv:Bike  a mv:MeansOfTransport . 
+mv:Bike  a mv:MeansOfTransport . baa
 
