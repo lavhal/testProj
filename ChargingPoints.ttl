@@ -11,7 +11,7 @@
 @prefix vcard:		        <http://www.w3.org/2001/vcard-rdf/3.0#> .
 @prefix skos: 			<http://www.w3.org/2004/02/skos/core#> .
 
-<http://purl.org/net/mobivoc/> a owl:Ontology .
+<http://butterbur06.iai.uni-bonn.de/> a owl:Ontology .
 
 # CLASSES
 		
