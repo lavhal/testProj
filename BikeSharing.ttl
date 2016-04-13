@@ -12,7 +12,7 @@ mv:BicycleDockingStation
   rdfs:label "bicycle docking station"@en , "Fahrradstation"@de .
   
 
-
+ 
 #PROPERTIES
 
 mv:dockingStationNumber
