@@ -1,4 +1,4 @@
-@prefix mv: <http://butterbur06.iai.uni-bonn.de/> .
+@prefix mv: <http://purl.org/net/mobivoc/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -20,7 +20,7 @@
 #################################################################
 
 
-###  http://purl.org/net/mobivoc/access 
+###  http://purl.org/net/mobivoc/access
 
 mv:access rdf:type owl:ObjectProperty ;
           
@@ -36,7 +36,8 @@ mv:access rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/net/mobivoc/isLocated
 
-mv:isLocated rdf:type owl:ObjectProperty ;              
+mv:isLocated rdf:type owl:ObjectProperty ;
+             
              rdfs:label "isLocated"@en,
 				"istLokalisiert"@de;
              
@@ -55,7 +56,7 @@ mv:isOwnedBy rdf:type owl:ObjectProperty ;
              rdfs:label "isImBesitzvon"@de ,
                         "isOwnedBy"@en ;
              
-
+             rdfs:comment "Low-EmissionZone's owner." ;
              
              rdfs:domain mv:Low-EmissionZone ;
              
